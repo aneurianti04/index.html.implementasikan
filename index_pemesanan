@@ -10,12 +10,10 @@
             margin: 0;
             padding: 20px;
         }
-
         h2 {
             text-align: center;
             color: white;
         }
-
         form {
             background: white;
             max-width: 700px;
@@ -24,23 +22,19 @@
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
-
         fieldset {
             border: 1px solid #ddd;
             border-radius: 8px;
             margin-bottom: 20px;
             padding: 15px;
         }
-
         legend {
             font-weight: bold;
             color: #2a5298;
         }
-
         label {
             font-weight: bold;
         }
-
         input, select {
             width: 100%;
             padding: 8px;
@@ -49,12 +43,10 @@
             border-radius: 5px;
             border: 1px solid #ccc;
         }
-
         input[type="radio"],
         input[type="checkbox"] {
             width: auto;
         }
-
         button {
             background-color: #2a5298;
             color: white;
@@ -65,11 +57,9 @@
             font-size: 16px;
             cursor: pointer;
         }
-
         button:hover {
             background-color: #1e3c72;
         }
-
         .footer {
             text-align: center;
             color: white;
