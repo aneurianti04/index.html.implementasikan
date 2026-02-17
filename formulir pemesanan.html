@@ -72,13 +72,21 @@
   <h2>Form Reservasi Paket Wisata Goa Jomblang - Yogyakarta</h2> 
   <form action="#" method="post" enctype="multipart/form-data"> 
    <input type="hidden" name="id_partner" value="GJY2026"> 
-   <fieldset> <legend>Data Identitas</legend> <label>Nama Lengkap:</label> 
+   <fieldset> 
+<legend>Data Identitas</legend> <label>Nama Lengkap:</label> 
     <input type="text" name="nama" required> <label>Email:</label> 
     <input type="email" name="email" required> <label>Buat PIN 6 Digit:</label> 
     <input type="password" name="pin" pattern="[0-9]{6}" maxlength="6" placeholder="Masukkan 6 digit angka" required> 
    </fieldset> 
-   <fieldset> <legend>Lokasi Penjemputan</legend> <label>Pilih Provinsi &amp; Kota:</label> <select name="lokasi" required> <option value="">-- Pilih Lokasi --</option> <optgroup label="DI Yogyakarta"> <option>DI Yogyakarta - Kota Yogyakarta</option> <option>DI Yogyakarta - Sleman</option> <option>DI Yogyakarta - Bantul</option> <option>DI Yogyakarta - Gunungkidul</option> </optgroup> <optgroup label="Jawa Tengah"> <option>Jawa Tengah - Magelang</option> <option>Jawa Tengah - Solo</option> <option>Jawa Tengah - Semarang</option> </optgroup> <optgroup label="DKI Jakarta"> <option>DKI Jakarta - Jakarta Pusat</option> <option>DKI Jakarta - Bandara Soekarno Hatta</option> </optgroup> <optgroup label="Jawa Barat"> <option>Jawa Barat - Bandung</option> <option>Jawa Barat - Bekasi</option> </optgroup> <optgroup label="Jawa Timur"> <option>Jawa Timur - Surabaya</option> <option>Jawa Timur - Malang</option> </optgroup> </select> <label>Meeting Point:</label> <select name="meeting_point" required> <option value="">-- Pilih Meeting Point --</option> <optgroup label="Bandara"> <option>Bandara YIA (Yogyakarta International Airport)</option> <option>Bandara Adi Sutjipto</option> <option>Bandara Soekarno Hatta</option> </optgroup> <optgroup label="Stasiun"> <option>Stasiun Tugu Yogyakarta</option> <option>Stasiun Lempuyangan</option> <option>Stasiun Solo Balapan</option> </optgroup> <optgroup label="Area Hotel"> <option>Hotel Area Malioboro</option> <option>Hotel Area Sleman</option> <option>Hotel Area Magelang</option> </optgroup> <optgroup label="Terminal"> <option>Terminal Giwangan</option> <option>Terminal Jombor</option> </optgroup> </select> 
-    <fieldset> <legend>Detail Keberangkatan</legend> <label>Cari Nama Destinasi:</label> 
+   <fieldset> 
+<legend>Lokasi Penjemputan</legend> 
+<label>Pilih Provinsi & Kota:</label> 
+<select name="lokasi" required> <option value="">-- Pilih Lokasi --</option> <optgroup label="DI Yogyakarta"> <option>DI Yogyakarta - Kota Yogyakarta</option> <option>DI Yogyakarta - Sleman</option> <option>DI Yogyakarta - Bantul</option> <option>DI Yogyakarta - Gunungkidul</option> </optgroup> <optgroup label="Jawa Tengah"> <option>Jawa Tengah - Magelang</option> <option>Jawa Tengah - Solo</option> <option>Jawa Tengah - Semarang</option> </optgroup> <optgroup label="DKI Jakarta"> <option>DKI Jakarta - Jakarta Pusat</option> <option>DKI Jakarta - Bandara Soekarno Hatta</option> </optgroup> <optgroup label="Jawa Barat"> <option>Jawa Barat - Bandung</option> <option>Jawa Barat - Bekasi</option> </optgroup> <optgroup label="Jawa Timur"> <option>Jawa Timur - Surabaya</option> <option>Jawa Timur - Malang</option> </optgroup> </select> 
+<label>Meeting Point:</label> 
+<select name="meeting_point" required> <option value="">-- Pilih Meeting Point --</option> <optgroup label="Bandara"> <option>Bandara YIA (Yogyakarta International Airport)</option> <option>Bandara Adi Sutjipto</option> <option>Bandara Soekarno Hatta</option> </optgroup> <optgroup label="Stasiun"> <option>Stasiun Tugu Yogyakarta</option> <option>Stasiun Lempuyangan</option> <option>Stasiun Solo Balapan</option> </optgroup> <optgroup label="Area Hotel"> <option>Hotel Area Malioboro</option> <option>Hotel Area Sleman</option> <option>Hotel Area Magelang</option> </optgroup> <optgroup label="Terminal"> <option>Terminal Giwangan</option> <option>Terminal Jombor</option> </optgroup> 
+</select> 
+    <fieldset> 
+<legend>Detail Keberangkatan</legend> <label>Cari Nama Destinasi:</label> 
      <input type="search" name="destinasi" placeholder="Contoh: Goa Jomblang" required> <label>Tanggal Keberangkatan:</label> 
      <input type="date" name="tanggal" required> <label>Jam Kumpul:</label> 
      <input type="time" name="jam" required> <label>Jumlah Peserta (1-20 orang):</label> 
